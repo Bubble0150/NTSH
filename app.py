@@ -38,10 +38,11 @@ def quiz_question():
         
         return redirect('/')
     
-    # Render the ask.html template when the user visits the page
+    # Render the quiz.html template when the user visits the page
     return render_template('quiz.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
+
 
 
